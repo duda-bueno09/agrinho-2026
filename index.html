@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agrinho — Segurança Alimentar e Produção Sustentável</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body class="light" data-font-size="medium">
+
+  <!-- ACCESSIBILITY TOOLBAR -->
+  <div class="a11y-bar" role="toolbar" aria-label="Barra de acessibilidade">
+    <span class="a11y-label">Acessibilidade</span>
+
+    <button id="btn-dark" class="a11y-btn" aria-pressed="false" aria-label="Alternar modo escuro">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <span>Modo Escuro</span>
+    </button>
+
+    <div class="font-controls" role="group" aria-label="Tamanho da fonte">
+      <button id="btn-font-dec" class="a11y-btn font-btn" aria-label="Diminuir fonte">A−</button>
+      <button id="btn-font-reset" class="a11y-btn font-btn" aria-label="Redefinir fonte">A</button>
+      <button id="btn-font-inc" class="a11y-btn font-btn" aria-label="Aumentar fonte">A+</button>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero" role="banner">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="grain"></div>
+    </div>
+    <div class="container hero-inner">
+      <div class="badge">Concurso Agrinho</div>
+      <h1 class="hero-title">
+        Segurança<br/>
+        <em>Alimentar</em> &amp;<br/>
+        Produção<br/>
+        Sustentável
+      </h1>
+      <p class="hero-sub">
+        Como alimentar 10 bilhões de pessoas sem comprometer o planeta?
+        Uma análise sobre os desafios e caminhos possíveis.
+      </p>
+      <a href="#introducao" class="cta-btn" aria-label="Ir para o conteúdo principal">
+        Explorar
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- INTRO -->
+    <section id="introducao" class="section section-intro" aria-labelledby="titulo-intro">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">Introdução</div>
+        <h2 id="titulo-intro" class="section-title">O Desafio Global</h2>
+        <div class="intro-grid">
+          <div class="intro-text">
+            <p>
+              A segurança alimentar e a produção sustentável são temas centrais no debate sobre
+              desenvolvimento humano e proteção ambiental. A crescente população mundial, projetada
+              para atingir cerca de <strong>10 bilhões de pessoas até 2050</strong>, gera pressão
+              sobre os sistemas agrícolas, recursos naturais e cadeias de abastecimento.
+            </p>
+            <p>
+              Garantir alimento suficiente, nutritivo e seguro, sem comprometer a capacidade do
+              planeta de sustentar futuras gerações, é o grande desafio global do nosso tempo.
+            </p>
+          </div>
+          <div class="stat-cards" role="list">
+            <div class="stat-card" role="listitem">
+              <span class="stat-number" aria-label="690 milhões">690M</span>
+              <span class="stat-desc">pessoas ainda passam fome no mundo (FAO, 2023)</span>
+            </div>
+            <div class="stat-card accent" role="listitem">
+              <span class="stat-number" aria-label="24 por cento">24%</span>
+              <span class="stat-desc">das emissões globais de GEE vêm do setor agrícola</span>
+            </div>
+            <div class="stat-card" role="listitem">
+              <span class="stat-number" aria-label="1 terço">⅓</span>
+              <span class="stat-desc">dos alimentos produzidos são perdidos ou desperdiçados</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEGURANÇA ALIMENTAR -->
+    <section id="seguranca" class="section section-alt" aria-labelledby="titulo-seg">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">Pilar 01</div>
+        <h2 id="titulo-seg" class="section-title">Segurança Alimentar</h2>
+        <p class="section-intro-text">
+          Segundo a FAO (2021), segurança alimentar existe quando todas as pessoas, em todos os momentos,
+          têm acesso físico, social e econômico a alimentos suficientes, seguros e nutritivos.
+        </p>
+
+        <div class="pillars-grid" role="list">
+          <article class="pillar-card" role="listitem" tabindex="0">
+            <div class="pillar-icon" aria-hidden="true">🌾</div>
+            <h3>Disponibilidade</h3>
+            <p>Produção, importação e estoques de alimentos suficientes para a população.</p>
+          </article>
+          <article class="pillar-card" role="listitem" tabindex="0">
+            <div class="pillar-icon" aria-hidden="true">🛒</div>
+            <h3>Acesso</h3>
+            <p>Poder aquisitivo, infraestrutura de transporte e mercados acessíveis a todos.</p>
+          </article>
+          <article class="pillar-card" role="listitem" tabindex="0">
+            <div class="pillar-icon" aria-hidden="true">🥗</div>
+            <h3>Utilização</h3>
+            <p>Qualidade nutricional e hábitos alimentares adequados para uma vida saudável.</p>
+          </article>
+          <article class="pillar-card" role="listitem" tabindex="0">
+            <div class="pillar-icon" aria-hidden="true">🛡️</div>
+            <h3>Estabilidade</h3>
+            <p>Garantia de acesso mesmo durante crises climáticas, econômicas ou políticas.</p>
+          </article>
+        </div>
+
+        <div class="challenges-block">
+          <h3 class="challenges-title">Principais Desafios</h3>
+          <ul class="challenges-list" role="list">
+            <li>
+              <span class="challenge-dot" aria-hidden="true"></span>
+              <span><strong>Desperdício alimentar:</strong> cerca de 1/3 dos alimentos produzidos no mundo é perdido ou desperdiçado.</span>
+            </li>
+            <li>
+              <span class="challenge-dot" aria-hidden="true"></span>
+              <span><strong>Mudanças climáticas:</strong> secas, enchentes e variações de temperatura afetam diretamente a produção agrícola.</span>
+            </li>
+            <li>
+              <span class="challenge-dot" aria-hidden="true"></span>
+              <span><strong>Conflitos e crises econômicas:</strong> impactam a capacidade de compra e distribuição de alimentos.</span>
+            </li>
+            <li>
+              <span class="challenge-dot" aria-hidden="true"></span>
+              <span><strong>Dupla carga alimentar:</strong> desnutrição e obesidade coexistem em muitos países.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUÇÃO SUSTENTÁVEL -->
+    <section id="producao" class="section" aria-labelledby="titulo-prod">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">Pilar 02</div>
+        <h2 id="titulo-prod" class="section-title">Produção Sustentável</h2>
+        <p class="section-intro-text">
+          Produção sustentável é a prática de gerar alimentos e outros produtos utilizando recursos
+          naturais de forma responsável, garantindo equilíbrio ambiental, social e econômico.
+        </p>
+
+        <div class="dimensions-grid">
+          <div class="dimension-card env" tabindex="0">
+            <h3>
+              <span aria-hidden="true">🌿</span> Ambiental
+            </h3>
+            <p>Conservação do solo, água e biodiversidade; redução de poluição e emissão de gases de efeito estufa.</p>
+          </div>
+          <div class="dimension-card soc" tabindex="0">
+            <h3>
+              <span aria-hidden="true">👥</span> Social
+            </h3>
+            <p>Inclusão de pequenos agricultores, condições de trabalho justas e equidade de gênero na cadeia produtiva.</p>
+          </div>
+          <div class="dimension-card eco" tabindex="0">
+            <h3>
+              <span aria-hidden="true">📈</span> Econômico
+            </h3>
+            <p>Eficiência produtiva e rentabilidade, incentivando o uso racional de insumos e recursos.</p>
+          </div>
+        </div>
+
+        <h3 class="strategies-title">Estratégias Sustentáveis</h3>
+        <div class="strategies-grid" role="list">
+          <article class="strategy-card" role="listitem" tabindex="0">
+            <div class="strategy-num" aria-hidden="true">01</div>
+            <h4>Agroecologia</h4>
+            <p>Integração de culturas e criação de animais respeitando o ecossistema natural.</p>
+          </article>
+          <article class="strategy-card" role="listitem" tabindex="0">
+            <div class="strategy-num" aria-hidden="true">02</div>
+            <h4>Agrofloresta</h4>
+            <p>Combinação de árvores e agricultura, aumentando a biodiversidade e a fertilidade do solo.</p>
+          </article>
+          <article class="strategy-card" role="listitem" tabindex="0">
+            <div class="strategy-num" aria-hidden="true">03</div>
+            <h4>Tecnologias de Precisão</h4>
+            <p>Monitoramento do solo, água e clima para otimizar insumos e reduzir impactos ambientais.</p>
+          </article>
+          <article class="strategy-card" role="listitem" tabindex="0">
+            <div class="strategy-num" aria-hidden="true">04</div>
+            <h4>Redução do Desperdício</h4>
+            <p>Reaproveitamento de resíduos e otimização da cadeia logística de alimentos.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERCONEXÃO -->
+    <section id="interconexao" class="section section-alt" aria-labelledby="titulo-inter">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">Relação</div>
+        <h2 id="titulo-inter" class="section-title">Como se Conectam?</h2>
+        <p class="section-intro-text">
+          A produção sustentável é uma condição necessária para a segurança alimentar de longo prazo.
+          Os dois pilares são indissociáveis.
+        </p>
+
+        <div class="connection-layout">
+          <div class="connection-block negative">
+            <h3>Sem práticas sustentáveis…</h3>
+            <ul role="list">
+              <li>O solo se degrada, reduzindo produtividade.</li>
+              <li>A escassez de água aumenta, prejudicando irrigação e consumo.</li>
+              <li>A biodiversidade diminui, tornando culturas mais vulneráveis a pragas e doenças.</li>
+            </ul>
+          </div>
+          <div class="connection-arrow" aria-hidden="true">
+            <svg viewBox="0 0 60 100" xmlns="http://www.w3.org/2000/svg"><path d="M30 10 L30 80 M15 65 L30 85 L45 65" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="connection-block positive">
+            <h3>Com sistemas sustentáveis…</h3>
+            <ul role="list">
+              <li>Garantia de alimentos nutritivos produzidos localmente.</li>
+              <li>Redução de vulnerabilidades a crises climáticas.</li>
+              <li>Promoção de inclusão social e econômica dos agricultores.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="highlight-stat" role="note" aria-label="Dado destacado">
+          <span class="big-num" aria-label="até 50 por cento">+50%</span>
+          <span>de aumento na produção de alimentos em áreas vulneráveis com práticas agroecológicas e tecnologias sustentáveis. <cite>(Banco Mundial)</cite></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- REFERÊNCIAS -->
+    <section id="referencias" class="section section-refs" aria-labelledby="titulo-refs">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">Fontes</div>
+        <h2 id="titulo-refs" class="section-title">Referências</h2>
+        <ol class="refs-list" role="list">
+          <li>
+            <strong>FAO</strong> — <em>The State of Food Security and Nutrition in the World 2023.</em> Rome: FAO, 2023.
+            <a href="https://www.fao.org/publications/sofi/2023/en/" target="_blank" rel="noopener noreferrer" aria-label="Acessar publicação da FAO (abre em nova aba)">↗ fao.org</a>
+          </li>
+          <li>
+            <strong>Banco Mundial</strong> — <em>Agricultural Productivity and Sustainable Development.</em> Washington, DC: World Bank, 2022.
+            <a href="https://www.worldbank.org/en/topic/agriculture" target="_blank" rel="noopener noreferrer" aria-label="Acessar publicação do Banco Mundial (abre em nova aba)">↗ worldbank.org</a>
+          </li>
+          <li>
+            <strong>ONU</strong> — <em>Sustainable Development Goals.</em> Goal 2: Zero Hunger; Goal 12: Responsible Consumption and Production. 2023.
+            <a href="https://sdgs.un.org/goals" target="_blank" rel="noopener noreferrer" aria-label="Acessar ODS da ONU (abre em nova aba)">↗ sdgs.un.org</a>
+          </li>
+          <li>
+            <strong>Godfray, H. C. J., et al.</strong> — <em>Food Security: The Challenge of Feeding 9 Billion People.</em> Science, vol. 327, 2010, pp. 812–818.
+          </li>
+          <li>
+            <strong>Tilman, D., et al.</strong> — <em>Global Food Demand and the Sustainable Intensification of Agriculture.</em> PNAS, vol. 108, 2011, pp. 20260–20264.
+          </li>
+          <li>
+            <strong>Gliessman, S. R.</strong> — <em>Agroecology: The Ecology of Sustainable Food Systems.</em> 3rd ed. CRC Press, 2014.
+          </li>
+          <li>
+            <strong>UNEP</strong> — <em>Sustainable Food Systems: Concept and Framework.</em> Nairobi: UNEP, 2021.
+            <a href="https://www.unep.org/resources/report/sustainable-food-systems" target="_blank" rel="noopener noreferrer" aria-label="Acessar publicação do UNEP (abre em nova aba)">↗ unep.org</a>
+          </li>
+          <li>
+            <strong>IPCC</strong> — <em>Climate Change and Land: Summary for Policymakers.</em> Geneva: IPCC, 2019.
+            <a href="https://www.ipcc.ch/srccl/" target="_blank" rel="noopener noreferrer" aria-label="Acessar relatório do IPCC (abre em nova aba)">↗ ipcc.ch</a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p>Atividade Agrinho · Concurso Escolar · Segurança Alimentar e Produção Sustentável</p>
+      <nav class="footer-nav" aria-label="Navegação do rodapé">
+        <a href="#introducao">Introdução</a>
+        <a href="#seguranca">Segurança Alimentar</a>
+        <a href="#producao">Produção Sustentável</a>
+        <a href="#interconexao">Interconexão</a>
+        <a href="#referencias">Referências</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- SKIP LINK (accessibility) -->
+  <a href="#main-content" class="skip-link">Pular para o conteúdo</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
