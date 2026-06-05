@@ -1,1 +1,2 @@
 # agrinho-2026
+O site funciona de forma simples e interativa. Os usuários podem acessar informações sobre segurança alimentar e produção sustentável por meio de menus e seções organizadas. Além disso, ele possui recursos de acessibilidade, como modo claro e escuro e opções para aumentar ou diminuir o tamanho das letras. Essas funções permitem que cada pessoa personalize a visualização da página, tornando a navegação mais confortável e acessível.
